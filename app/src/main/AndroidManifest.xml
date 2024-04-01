@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.MamaDevalayam">
+
+    <!-- <uses-permission android:name="${applicationId}.permission.C2D_MESSAGE"/> -->
+    <!-- <permission -->
+    <!-- android:name="${applicationId}.permission.C2D_MESSAGE" -->
+    <!-- android:protectionLevel="signature"/> -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- <permission -->
+    <!-- android:name="com.kuliza.taxi.permission.MAPS_RECEIVE" -->
+    <!-- android:protectionLevel="signature" /> -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="com.google.android.gms.permission.AD_ID"
+        tools:node="remove" />
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:name=".Interwork.MyApplication"
+        android:allowBackup="true"
+        android:exported="false"
+        android:fullBackupContent="false"
+        android:grantUriPermissions="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_new"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_new_round"
+        android:supportsRtl="true"
+        android:theme="@style/ChatBackground"
+        android:usesCleartextTraffic="true"
+        android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDwyL_q0Z9StsO0xYL_7qR7_ZIeW85I110" />
+
+        <activity
+            android:name=".Activity.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Activity.MapActivity"
+            android:exported="false" /> <!-- android:icon="@drawable/logo" -->
+        <!-- android:roundIcon="@mipmap/ic_launcher" -->
+        <activity
+            android:name=".Activity.ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.TempleArchitectureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MahimaIthihasaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SearchNewActivity"
+            android:exported="false" />
+        <!--
+         <activity
+            android:name=".Activity.BrowseActivityNew"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".Activity.TitleSubTitleNewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MakeTypeScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AdvanceCompletedNewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.NamePlaceSerachActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activity.TypeSerchActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".Activity.PrivactPolicyActivity" />
+        <activity
+            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="${applicationId}.braintree" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.BrainTreePaymentActivity" />
+        <activity android:name=".Activity.PrivacyPolicyActivity" />
+        <activity android:name=".Activity.TermsAndConditionActivity" />
+        <activity android:name=".Activity.NewtypesActivity" />
+
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" /> <!-- <service -->
+        <!-- android:name=".Notification.fcm.MyFirebaseMessagingService" -->
+        <!-- android:exported="false"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <!-- <receiver -->
+        <!-- android:name=".Notification.fcm.OnBootBroadcastReceiver" -->
+        <!-- android:exported="false"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <activity android:name=".Activity.ConfirmationActivity" />
+        <activity android:name=".Activity.AnnualRevenueActivity" />
+        <activity android:name=".Activity.TitleSubTitleActivity" />
+        <activity android:name=".Activity.SubCategoryActivity" />
+        <activity android:name=".Activity.AdvanceCompletedActivity" />
+        <activity android:name=".Activity.PaymentSuccessActivity" />
+        <activity android:name=".Activity.SelectPaymentActivity" />
+        <activity android:name=".Activity.ChangePasswordActivity" />
+        <activity
+            android:name=".Activity.OtpActivity"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity android:name=".Activity.ForgotActivity" />
+        <activity android:name=".Activity.AdvanceSearchActivity" />
+        <activity
+            android:name=".Activity.AdavanceSearchUIDesign"
+            android:theme="@style/adavance_theme" />
+        <activity android:name=".Activity.AdavanceSearch_new" />
+        <activity android:name=".Activity.HelpSupportActivity" />
+        <activity android:name=".Activity.AboutActivity" />
+        <activity android:name=".Activity.AboutNewActivity" />
+        <activity android:name=".Activity.InternationalCharitiesActivity" />
+        <activity android:name=".Activity.PlaceSearchActivity" />
+        <activity android:name=".Activity.AutosearchActivity" />
+        <activity android:name=".Activity.NewSeachtypesActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <!--
+   <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDwyL_q0Z9StsO0xYL_7qR7_ZIeW85I110" />
+        -->
+        <activity android:name=".Activity.UpdateActivity" />
+        <activity android:name=".Activity.AdvanceSearch1Activity" />
+        <activity
+            android:name=".Activity.WelcomeActivity"
+            android:exported="true"
+            android:theme="@style/inter_splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.UnitedStateDetailsActivity"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.SettingActivity"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".Activity.NotificationActivity" />
+        <activity android:name=".Activity.FollowingActivity" />
+        <activity android:name=".Activity.TypesActivity" />
+        <activity
+            android:name=".Activity.NameSearchActivity"
+            android:theme="@style/ChatBackground"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.UnitedStateActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".CommonActivity.CommonBackActivity"
+            android:theme="@style/ChatBackground"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity android:name=".Activity.RegisterActivity" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity> <!-- facebooklogin -->
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:theme="@style/ChatBackground"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:name=".Activity.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/inter_splash_screen">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name=".Activity.MyspaceActivity" />
+        <activity android:name=".CommonActivity.CommonMenuActivity" />
+        <activity
+            android:name=".Activity.BrowseActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- <meta-data -->
+        <!-- android:name="com.facebook.sdk.ApplicationId" -->
+        <!-- android:value="@string/facebook_app_id" /> -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <receiver
+            android:name=".Interwork.ConnectivityReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/toplogo" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+    </application>
+
+</manifest>
