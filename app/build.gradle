@@ -1,0 +1,174 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.MamaDevalayam'
+    compileSdkVersion 34
+    defaultConfig {
+        applicationId "com.MamaDevalayam"
+//        applicationId "com.i2donate"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 33
+        versionName "1.0.33"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        externalNativeBuild{
+            cmake {
+                cppFlags ""
+            }
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+    signingConfigs {
+        //todo New
+        /*debug {
+            storeFile file("${rootDir}/mamadevalayam.jks")
+            storePassword 'mamadevalayam'
+            keyAlias 'mamadevalayam'
+            keyPassword 'mamadevalayam'
+        }
+        release {
+            storeFile file("${rootDir}/mamadevalayam.jks")
+            storePassword 'mamadevalayam'
+            keyAlias 'mamadevalayam'
+
+            keyPassword 'mamadevalayam'
+        }*/
+
+        //todo old
+        /*debug {
+            storeFile file("${rootDir}/new_mama_devalayam_keystore.jks")
+            storePassword 'mamadevalayam'
+            keyAlias 'mamadevalayam'
+            keyPassword 'mamadevalayam'
+        }
+        release {
+            storeFile file("${rootDir}/new_mama_devalayam_keystore.jks")
+            storePassword 'mamadevalayam'
+            keyAlias 'mamadevalayam'
+
+            keyPassword 'mamadevalayam'
+        }*/
+
+        /*release {
+            storeFile file('D:\\dhruvi\\I2_Donate\\I2_Donate_Android\\Android-Master\\i2-Donate_Android\\i2~donate.jks')
+            storePassword 'i2~donate'
+            keyAlias 'i2~donate'
+            keyPassword 'i2~donate'
+        }*/
+    }
+
+    buildTypes {
+        release {
+//             signingConfig signingConfigs.release
+        }
+
+        debug {
+            debuggable true
+//            signingConfig signingConfigs.release
+
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.release
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+//    implementation 'com.squareup.okhttp3:okhttp:4.1.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    
+    //todo sdp / ssp dependancy
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'com.intuit.ssp:ssp-android:1.1.0'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.google.android.gms:play-services-auth:20.5.0'
+    //  implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    // implementation 'com.facebook.android:facebook-android-sdk:5.11.0'
+
+    //old code
+//    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    implementation 'com.facebook.android:facebook-android-sdk:16.3.0'
+
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+    implementation 'com.facebook.android:facebook-login:latest.release'
+
+    implementation 'com.twitter.sdk.android:twitter:3.1.1'
+    implementation 'com.twitter.sdk.android:twitter-core:3.1.1'
+    implementation 'com.twitter.sdk.android:tweet-ui:3.1.1'
+    //implementation 'com.paypal.sdk:paypal-android-sdk:2.16.0'
+//    implementation 'com.squareup.okhttp3:logging-interceptor:3.5.0'
+    implementation 'javax.json:javax.json-api:1.0'
+    // implementation 'com.google.android.libraries.places:places:1.0.0'
+
+    implementation 'com.google.android.libraries.places:places:3.3.0'
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    // retrofit, gson
+    implementation 'com.google.code.gson:gson:2.10.1'
+//    /* implementation 'com.squareup.retrofit2:retrofit:2.0.2'
+//    implementation 'com.squareup.retrofit2:converter-gson:2.0.2'*/
+    implementation 'com.squareup.retrofit2:converter-scalars:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.karumi:dexter:6.2.3'
+    //BrainTree
+    //  implementation 'com.braintreepayments.api:drop-in:3.7.1'
+//     implementation 'com.braintreepayments.api:drop-in:4.5.0'
+//    implementation 'com.braintreepayments.api:drop-in:6.2.0'
+    implementation 'com.braintreepayments.api:drop-in:6.9.0'
+    /* implementation 'com.google.android.gms:play-services-places:16.0.0'*/
+    /*Crashlist*/
+    // implementation 'com.google.firebase:firebase-crashlytics:17.1.0'
+    // add the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics:21.1.1'
+    implementation 'com.google.firebase:firebase-messaging:20.2.1'
+    implementation 'com.google.android.gms:play-services-location:20.0.0'
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    implementation 'com.google.android.gms:play-services-vision:20.1.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.balsikandar.android:crashreporter:1.1.0'
+
+    implementation ("com.squareup.okhttp3:okhttp:4.11.0")
+//            {
+//        force = true //API 19 support
+//    }
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+
+    //todo circular imageview dependancy
+    implementation("com.makeramen:roundedimageview:2.3.0")
+
+}
+apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.firebase.crashlytics'
