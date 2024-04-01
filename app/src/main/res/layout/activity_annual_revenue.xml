@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    tools:context="com.MamaDevalayam.Activity.AnnualRevenueActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/commonMenuActivityToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetEnd="0dp"
+        android:contentInsetRight="0dp"
+        android:elevation="5dp"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp">
+
+        <ImageView
+            android:id="@+id/back_icon_revenue_img"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="start|left"
+            android:padding="8dp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:src="@drawable/back_icon" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/toplogo" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/commonMenuActivityToolbar"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_tv"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:gravity="center_vertical"
+        android:text="Search by Annual Revenue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAllCaps="true"
+        android:textColor="@color/title_color"
+        android:singleLine="true"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/ninty_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/advanced_border_layout"
+            android:gravity="center"
+            android:layout_margin="@dimen/_15sdp"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/textInside"
+            android:text="Upto $90,000"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:visibility="visible" />
+
+
+
+        <TextView
+            android:id="@+id/greaterninty_deselect_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/textInside"
+            android:background="@drawable/advanced_border_layout"
+            android:text=">$90,000 - $200,000"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/twohund_tv_deselect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/advanced_border_layout"
+            android:gravity="center"
+            android:layout_margin="@dimen/_15sdp"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/textInside"
+            android:text=">$200,000 - $500,000"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/fivehund_deselect_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/textInside"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:background="@drawable/advanced_border_layout"
+            android:text=">$500,000 - $1,000,000"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/greaterthousand_deselect_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/_15sdp"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/textInside"
+        android:background="@drawable/advanced_border_layout"
+        android:text=">$1,000,000"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:visibility="visible" />
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/annual_bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/annual_reset_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/reset_button_border"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/type_reset_button"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/annual_apply_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/login_botton_border"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/type_apply_button"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

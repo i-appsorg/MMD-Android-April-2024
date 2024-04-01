@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/dashbord_background"
+    android:gravity="center_horizontal"
+    tools:context="com.MamaDevalayam.Activity.WelcomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/inknutantiqua"
+            android:text="@string/welcome"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_36sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_above="@+id/LLBrowse"
+            android:layout_below="@+id/tvWelcome"
+            android:background="@color/dark_yellow">
+
+            <ImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_splash" />
+
+            <ImageView
+                android:layout_width="@dimen/_140sdp"
+                android:layout_height="@dimen/_140sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:src="@drawable/finance_icon"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/smarter_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/splash_text"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_40sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/welcome_objective"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_18sdp"
+                android:visibility="gone"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_charities"
+                android:visibility="gone"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_support"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/_18sdp"
+                android:visibility="gone"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LLBrowse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="@dimen/_15sdp"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/IvBrowse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/browser_icon"
+                android:layout_gravity="bottom"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
