@@ -1,0 +1,366 @@
+<resources>
+    <!--    <string name="app_name">i2~Donate</string>-->
+    <string name="app_name">Mama Devalayam</string>
+    <string name="server_client_id">AIzaSyAdOokbh0m1ZOQX7N2rv4Maj3BesLrc28k</string>
+    <!--Facebook_login-->
+
+    <!--<string name="facebook_app_id">2206828662688439</string>
+    <string name="fb_login_protocol_scheme">fb2206828662688439</string>-->
+
+    <!--  <string name="facebook_app_id">815575865578946</string>
+    <string name="fb_login_protocol_scheme">fb815575865578946</string>-->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="web_client_id" translatable="false">720548689360-3pbpu4h85j4pon0q10de1em1jthkolkf.apps.googleusercontent.com"</string>
+    <!--    <string name="facebook_app_id">458781686289561</string>-->
+    <!--    <string name="fb_login_protocol_scheme">0ec39795f3b778911f32b9006bb811fc</string>-->
+
+
+    <!--    <string name="facebook_app_id">628278148990676</string>-->
+    <!--    <string name="fb_login_protocol_scheme">8272532da973238f5b7427bde61d53d7</string>-->
+    <!--    <string name="facebook_client_token">f92318a1a1942cddb60e74d8016937bb</string>-->
+
+<!--TODO Old-->
+<!--    <string name="facebook_app_id">458781686289561</string>-->
+<!--    <string name="fb_login_protocol_scheme">0ec39795f3b778911f32b9006bb811fc</string>-->
+<!--    <string name="facebook_client_token">fc74a85d45c1ad37ca9b5b9825731ef6</string>-->
+
+    <string name="facebook_app_id">458781686289561</string>
+    <string name="fb_login_protocol_scheme">0ec39795f3b778911f32b9006bb811fc</string>
+    <string name="facebook_client_token">fc74a85d45c1ad37ca9b5b9825731ef6</string>
+
+
+    <!--    <string name="facebook_app_id">805806270472115</string>-->
+    <!--    <string name="fb_login_protocol_scheme">4a897f9bd90e3cd56b4a00734ee723ca</string>-->
+    <!--    <string name="facebook_client_token">c349d626f9b535c6212be7df0df2357b</string>-->
+    <!--Twitter Login-->
+    <!--    <string name="twitter_API_key">EnzTp5DQICdn3DzJ3rBNAioXL</string>-->
+    <!--    <string name="twitter_secret_key">ICASrwkV7PaBNmXHkgLXFBtVH4uGYfbOkFlv9JKGTvw0lyD3Bl</string>-->
+
+    <!--    <string name="twitter_API_key">QW5wSS1kRTlHQUFUQ01tS0VHUUU6MTpjaQ</string>-->
+    <!--    <string name="twitter_secret_key">_cuHNDKMTMeic1Ypy2OwZ9ujr3b57vWOpIie46XtTMILGZHqLQ</string>-->
+
+
+    <!--    <string name="com.twitter.sdk.android.CONSUMER_KEY">HAZHZZLxfjeiBDO39i5eVLoYf</string>-->
+    <!--    <string name="com.twitter.sdk.android.CONSUMER_SECRET">KNDrKRh41daco82mykMMTzrpaIW3LoHFW59AItzSswBewTfl7W</string>-->
+
+<!--TODO Old-->
+
+<!--    <string name="com.twitter.sdk.android.CONSUMER_KEY">pBjkBJoBpsMl1QHWsE1UjbAo2</string>-->
+<!--    <string name="com.twitter.sdk.android.CONSUMER_SECRET">RqkDXS2E84loXIursJlHeI8kh9fnVufaWLo4a8fN3XkrZiGl2D</string>-->
+
+    <!--    <string name="twitter_API_key">QW5wSS1kRTlHQUFUQ01tS0VHUUU6MTpjaQ</string>-->
+    <!--    <string name="twitter_secret_key">Eg2D705h71QKpLIV3mG2dzs_OAzYUOUHqD4EXEFUTd8MTPDN3B</string>-->
+
+    <!--PayPal Integration-->
+    <string name="ClientId">Ae7-40mniICmqZQEPOxH_ThAXlxE9CzqVapa6pdGWp9HbrELuSeYStvZZJYg3Y95qlxR3DLAtoy-Zbop</string>
+    <string name="SecretId">ENiu5b5wLpnLrEWs7YvNZBMrPRQCSSsXp1FeuiID-0yF86aOuEIeayaPzXglCFeN-VxF72mvpJ8YaTxJ</string>
+
+    <!--Login Page Text-->
+
+    <string name="login_text">LOGIN</string>
+    <string name="login_page_text">Please register for using advanced features.</string>
+    <string name="login_text_2">Narrow down search results for complex searches by using the Advanced Search.</string>
+    <string name="login_username">Email Id</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgot_password">Forgot your password?</string>
+    <string name="login_or_connect">or connect with</string>
+    <string name="login_account">Don\'t have an account?</string>
+    <string name="login_register">Register Now</string>
+    <string name="login_loading">Loading....</string>
+    <!--Register Page Text-->
+    <string name="register_text">REGISTER</string>
+    <string name="register_name">Name*</string>
+    <string name="register_email">Email Address*</string>
+    <string name="register_mobile">Mobile*</string>
+    <string name="update_mobile">Mobile</string>
+    <string name="register_password">Password*</string>
+    <string name="register_confirm_password">Confirm password*</string>
+    <!--    <string name="register_password_hint">Note: Password must be at least 8 char long and have a combination of Capital and Small letters, Number and Symbols</string>-->
+    <string name="register_password_hint">Note: Password must be at least 8 characters long \nand have a combination of letters, numbers and \nsymbols</string>
+
+    <string name="register_gender">Gender</string>
+    <string name="register_male">Male</string>
+    <string name="register_female">Female</string>
+    <string name="register_agree">I agree to Mama Devalayam’s\t </string>
+    <string name="register_terms">Terms &amp; Conditions</string>
+    <string name="register_already">Already have an account?</string>
+    <string name="register_login">Log In</string>
+    <string name="register_orthers">Other</string>
+    <string name="register_yes">Business</string>
+    <string name="register_no">Individual</string>
+    <string name="register_incorporation_documents">Incorporation documents*</string>
+    <string name="register_tax_id_allocation_certificate">Tax Id allocation certificate*</string>
+    <string name="register_business_certificate_of_good_standing">Business Certificate of Good Standing</string>
+    <string name="register_other_document">Other document</string>
+    <string name="register_other_document_small">(Optional - documents such as DBA filing etc)</string>
+    <string name="upload">Upload</string>
+    <string name="no_file_choosen">No file choosen</string>
+    <string name="register_business_name">Business Name</string>
+    <string name="register_individual">Register as </string>
+    <string name="updated_individual">Registered as </string>
+    <!--Email Update-->
+    <string name="update_update">Build Your Profile</string>
+    <string name="update_skip">Skip</string>
+    <string name="update_btn">Update</string>
+    <string name="update_business_selected_data">XXXXXXXX</string>
+    <!--Navigation-header-->
+
+    <string name="navi_name">MamaDevalayam</string>
+    <string name="navi_profile">My Profile</string>
+
+    <!--Browse page-->
+
+    <string name="browse_better">A better way to give</string>
+    <string name="browse_sentence">Do a deed of simple kindness; though its end you may not see, it may reach like widening ripples down a long eternity.</string>
+    <string name="browse_writter_name">- Joseph Norris</string>
+    <!--    <string name="browse_united_state">united states</string>-->
+    <string name="browse_united_state">TEMPLES IN INDIA</string>
+    <string name="browse_international">international \ncharites\n Registered in usa</string>
+    <string name="browse_charites">charites</string>
+    <string name="browse_register">Registered in usa</string>
+    <string name="browse_name">name</string>
+    <string name="browse_type">type</string>
+    <string name="browse_advance_search">Advanced search</string>
+    <string name="international">international charites Reg...</string>
+
+    <!--MY Space -->
+
+    <string name="myspace_title">Joseph noris\'s space</string>
+    <string name="myspace_adapter_item_name">My donations</string>
+    <string name="myspace_adapter_item_followers">My followings</string>
+    <string name="myspace_adapter_item_likes">my likes</string>
+
+    <!--united state-->
+
+    <string name="united_state_search_hint">Search for city,state</string>
+    <string name="united_state_filter">Filter by</string>
+    <string name="united_state_name">NAME</string>
+    <string name="united_state_title_name">Search by Name</string>
+    <string name="united_state_type">DEITY</string>
+    <string name="united_state_search">Advanced Search</string>
+    <!--    <string name="united_state_nonprofit">Nonprofits &amp; Charities near you...</string>-->
+    <string name="united_state_nonprofit">Temples near you...</string>
+    <!--    <string name="united_state_location">Search by city/state</string>-->
+    <string name="united_state_location">Filter By Location</string>
+    <string name="united_state_internationlocation">Search by country</string>
+    <!--    <string name="united_state_search_name">Enter nonprofit/charity name</string>-->
+    <string name="united_state_search_name">Filter By Name</string>
+    <!--    <string name="united_state_name_location">Location</string>-->
+    <string name="united_state_name_location">LOCATION</string>
+
+    <!--united_state_adapter_page-->
+    <string name="united_state_adapter_american">American Cancer Socity</string>
+    <string name="united_state_adapter_new_york">New York,United States</string>
+    <string name="united_state_adapter_like">173 Likes</string>
+    <string name="united_state_adapter_following">Follow</string>
+    <!--    <string name="united_state_adapter_donate">Donate</string>-->
+    <string name="united_state_adapter_donate">Hundi</string>
+    <string name="name_search_adapter">search name</string>
+
+    <!--Search By Type-->
+
+    <string name="search_by_type">Search By Type</string>
+    <string name="search_by_deities">SEARCH BY DEITIES</string>
+    <string name="search_sub_type">Sub-types</string>
+    <string name="type_education">Arts,culture &amp; Humanites </string>
+    <string name="type_evniroment">Education</string>
+    <string name="type_reset_button">reset</string>
+    <string name="type_apply_button">apply</string>
+    <string name="type_environment">Environment</string>
+    <string name="type_animal">Animal-related</string>
+    <string name="type_health">Health care</string>
+    <string name="type_diseases">Diseases &amp; Medical Disciplines</string>
+    <string name="type_crime">crime &amp; legal-related</string>
+    <string name="type_housing">housing &amp; shelter</string>
+    <string name="type_civil_rights">Civil rights,social action &amp; Advocacy</string>
+    <string name="type_social">social science</string>
+    <string name="type_mutual">Mutual &amp; Membership benef</string>
+
+    <!--Following nonprofit-->
+
+    <string name="following_nonproft">Following non-profits, charities</string>
+
+    <!--Notification page-->
+
+    <string name="notification_page">Notifications</string>
+    <string name="notification_sentence">American Cancer Soceity,Inc.special event"Making Strides of Greater New Haven"Starts on Nov 11,2018</string>
+    <string name="setting_text">my settings</string>
+    <string name="setting_app">App Settings</string>
+    <string name="setting_alloe">All notifications</string>
+    <string name="setting_not_distrub">Do not distrub</string>
+    <!--    <string name="setting_make_sound">Disable sound &amp; vibrate</string>-->
+    <string name="setting_make_sound">Notifications will not make sound or\nvibrate</string>
+    <string name="setting_account_setting">Account Settings</string>
+    <string name="setting_account_setting_available">(Available only for in-app registration)</string>
+    <string name="setting_change_password">Change Password</string>
+
+    <!--United State Details-->
+
+    <string name="united_sted_details_text">American Cancer Soceity,Inc.special event"Making Strides of Greater New Haven"Starts on Nov 11,2018
+    American Cancer Soceity,Inc.special event"Making Strides of Greater New Haven"Starts on Nov 11,2018
+    American Cancer Soceity,Inc.special event"Making Strides of Greater New Haven"Starts on Nov 11,2018</string>
+    <string name="united_state_leadreship">Leadership &amp;\n Team</string>
+    <string name="united_state_values">Values</string>
+    <string name="united_state_impact">Impact</string>
+    <string name="united_state_contact">Contact</string>
+
+    <!--Welc Screen Page-->
+
+    <string name="welcome_better_to_give">A Better Way to give</string>
+    <string name="welcome_all_in_one">All - in - One</string>
+    <string name="welcome">Swagatham</string>
+    <string name="welcome_giving">giving</string>
+    <string name="welcome_we_want">we want to make giving simple</string>
+    <string name="welcome_meaningful">and meaningful for you.the</string>
+    <string name="welcome_possibilities">possibilities are endless!</string>
+    <string name="welcome_smarter">Giving</string>
+    <string name="welcome_objective">We want to make giving simple </string>
+    <string name="welcome_charities">and meaningful for you. The </string>
+    <string name="welcome_support">possibilities are endless!</string>
+    <string name="welcome_bypass">Bypass this message permanently</string>
+
+    <!--Name_serach-->
+
+    <string name="name_search_noresult">No data found...</string>
+    <string name="no_notifications">No Notifications</string>
+    <!--Advanced Search-->
+    <string name="advanced_search">advanced search</string>
+    <string name="advanced_narrow">Refine your search with greater granularity or interesting details</string>
+    <!--    <string name="advanced_narrow">Narrow down search results for complex searches by using the Advanced Search.</string>-->
+    <string name="Refined_Deity_Search">Refined Deity Search</string>
+    <string name="advanced_tax">Tax Status</string>
+    <string name="advanced_exempt">Deductible</string>
+    <string name="advanced_not_exempt">Not Deductible</string>
+    <string name="advanced_sub_types">Types</string>
+    <string name="advance_year_in">Temple Classification</string>
+    <!--    <string name="advance_year_in">Annual Revenue</string>-->
+
+    <!--Advance Search list-->
+
+    <string name="search_arts">Arts,Culture &amp; Humanities</string>
+    <string name="serach_education">Education</string>
+    <string name="search_environment">Environment</string>
+    <string name="search_animalrelated">Animal-Related</string>
+    <string name="search_healthcare">Health Care</string>
+    <string name="search_diseases">Diseases,Disorders,&amp;Medical Disciplines</string>
+    <string name="search_crime">Crime &amp; Legal-Related</string>
+    <string name="search_housing">Housing &amp; Shelter</string>
+    <string name="search_civil_rights">Civil Rights,Social Action &amp;Advocacy</string>
+    <string name="search_socialscience">Social Science</string>
+    <string name="search_mutual">Mutual &amp; Membership Benef</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_advance_search">Filter the Non-profits by types and sub types</string>
+
+    <!--Payment_page-->
+
+    <string name="payment_donate_money">Donate Money</string>
+    <string name="donation_calculation">Donation Calculation</string>
+    <string name="donation_amt">Donation amount</string>
+    <string name="donation_merchant_charges">Merchant charges \n (2.9%+$0.30)</string>
+    <string name="donation_processing_fee">Processing Fee (1%)</string>
+    <string name="donation_total_amt">Total amount</string>
+    <string name="donation_close">Close</string>
+    <string name="payment_cancel">Cancel</string>
+    <string name="payment_enter">Enter Amount</string>
+    <string name="payment_continue">Continue</string>
+
+    <!--auto_search-->
+
+    <string name="autocomplete_hint">Enter city/state</string>
+    <!--  <string name="autocomplete_hint">Type at least 3 letters to search</string>-->
+    <!--terms&Condition-->
+
+    <string name="terms_title">Terms &amp; Conditions</string>
+    <string name="privacy_title">i2~Donate privacy policy</string>
+    <!--About i2~donate-->
+
+    <string name="about_title">ABOUT</string>
+    <!--    <string name="about_title">ABOUT i2~DONATE</string>-->
+    <string name="about_dummy_text">some test will be displayed here . You can use this screen design for displaying information that is related to \n\nAbout Mama Devalayam or you can use this for display Help and Support Information Or for displaying Terms and Conditions or use oit for displaying Privacy policy content.\n\nsome test will be displayed here . You can use this screen design for displaying information that is related to \n\nAbout Mama Devalayam or you can use this for display Help and Support Information Or for displaying Terms and Conditions or use oit for displaying Privacy policy content.\n\nsome test will be displayed here . You can use this screen design for displaying information that is related to \n\nAbout Mama Devalayam or you can use this for display Help and Support Information Or for displaying Terms and Conditions or use oit for displaying Privacy policy content.\n\nsome test will be displayed here . You can use this screen design for displaying information that is related to \n\nAbout Mama Devalayam or you can use this for display Help and Support Information Or for displaying Terms and Conditions or use oit for displaying Privacy policy content.</string>
+    <string name="about_idonate_text">i-Donate looks at an enduring giving and sharing process. It combines simplicity with disruption. It seeks to change the giving behavior and process. i-Donate proprietary solution is unique in its ability for contextual communication, which is a form of dynamic intelligence. </string>
+    <string name="about_cloud_based">It is a cloud-based solution allowing nonprofits to focus on their primary goal – attract, retain and engage with donors and volunteers and allows Donors easy and quick access to information, set your goals, personalize your giving, track and share your giving and volunteer opportunities.  </string>
+    <string name="about_idonate_impact">i2~Donate impacts</string>
+    <string name="about_idonate_give">1. How we give</string>
+    <string name="about_promote">2. How we promote causes</string>
+    <string name="about_connect">3. How we connect</string>
+    <string name="about_endure">4. How giving relationships endure</string>
+    <string name="about_personalize">5. How we personalize giving</string>
+
+
+    <!--Help page-->
+
+    <string name="help_support">HELP &amp; SUPPORT</string>
+    <string name="help_Lorem">Lorem ipsum dolor sit amet?</string>
+    <string name="help_Consectetur">Consectetur adipiscing elit. Phasellus eget nibh vehicula dui vehicula mattis in vitae ipsum. Etiam in velit vitae leo sollicitudin ultricies nec iaculis est.</string>
+    <string name="help_amet">Lorem ipsum dolor sit amet?</string>
+    <string name="help_adipiscing">Consectetur adipiscing elit. Phasellus eget nibh vehicula dui vehicula mattis in vitae ipsum. Etiam in velit vitae leo sollicitudin ultricies nec iaculis est.</string>
+
+    <!--Forgot Password-->
+
+    <!--    <string name="forgot_password_title">Forgot Password</string>-->
+    <string name="forgot_password_title">CHANGE PASSWORD</string>
+    <string name="forgot_password_hint">Enter your registered email address above. We will send you an OTP for reset your password.</string>
+    <string name="forgot_send">Send</string>
+    <string name="forgot_note_pt">Note: Please check the spam folder in case you have not received any mail.</string>
+
+    <!--Otp-->
+    <string name="pin_content_desc">PIN input field</string>
+    <string name="pin_label_text">PIN</string>
+    <string name="pint_otp_title">VERIFY OTP</string>
+    <string name="pin_resend_code">Resend code</string>
+    <string name="pin_change_mail">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_password_title">Change your account password below.</string>
+    <string name="change_old_password">Old password</string>
+    <string name="change_change_password">New password</string>
+    <string name="change_submit">SUBMIT</string>
+    <string name="payment_page_title">Select payment method</string>
+    <string name="payment_donation">Donation Amount</string>
+    <string name="payment_success_title">Payment Successful!</string>
+    <string name="string_resource">This [img src=ic_info/] is an icon.</string>
+    <!--update password-->
+    <string name="update_password_title">Update your account password below.</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_password">Confirm password</string>
+
+    <!--Dialogue message-->
+    <string name="dialog_message">Returning to login without making changes? </string>
+    <string name="dialog_message_mysetting">Returning to my settings without making changes? </string>
+    <string name="alert_message">Returning to previous screen without making changes?</string>
+
+    <!--menu_items-->
+    <string name="navigation_drawer_open">drawer open</string>
+    <string name="navigation_drawer_close">drawer close</string>
+    <string name="register_login2">REGISTER/LOGIN</string>
+    <string name="go_to_home">GO TO HOME</string>
+    <string name="contact_id">+91-8772277777</string>
+    <string name="priest_contact">Priest Contact</string>
+    <string name="emailId">helpdesk@Vishnavodevi.org</string>
+    <string name="temple_email">Temple Email</string>
+    <string name="wesite_id">www.Vishnavodevi.org</string>
+    <string name="temple_website">Temple Website</string>
+    <string name="donate_msg">For making donations to the temple, sponsorship payment or payments for any service, please contact:</string>
+    <string name="thank_you_for_your_interest">Thank you for your interest!</string>
+    <string name="hundi">HUNDI</string>
+    <string name="programs">PROGRAMS</string>
+    <string name="puja">PUJA</string>
+    <string name="sponsorship">SPONSORSHIP</string>
+    <string name="temple_by_location">Temple By Location</string>
+    <string name="all_the_dhamas_are_related_to_four_yuga_s_epochs">All the \'dhamas\' are related to four Yuga\'s (epochs)</string>
+    <string name="about">ABOUT</string>
+
+    <string name="back">Back</string>
+    <string name="splash_text">Mama\nDevalayam</string>
+    <string name="change_password_msg">You have Successfully Changed Your Password</string>
+    <string name="type_at_least_3_letters_to_search">Type at least 3 letters to search.</string>
+    <!--    <string name="location">Location</string>-->
+    <string name="location">LOCATION</string>
+    <string name="mahima_itihasa">MAHIMA / ITIHASA</string>
+    <string name="this_is_the_section_for_displaying_mahima_ithihasa_information">THIS IS THE SECTION FOR DISPLAYING MAHIMA / ITHIHASA INFORMATION</string>
+    <string name="temple_architecture">TEMPLE ARCHITECTURE</string>
+    <string name="contact">CONTACT</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="this_is_the_section_for_displaying_architecture_information">THIS IS THE SECTION FOR DISPLAYING ARCHITECTURE INFORMATION</string>
+    <string name="this_is_the_section_for_displaying_contact_information">THIS IS THE SECTION FOR DISPLAYING CONTACT INFORMATION</string>
+</resources>

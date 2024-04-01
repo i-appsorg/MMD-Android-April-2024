@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#9C7192</color>-->
+    <color name="colorPrimary">#FF5936</color>
+    <color name="colorPrimary_pink">#CCF9F0F7</color>
+    <color name="colorPrimaryDark">#D097C4</color>
+<!--    <color name="colorAccent">#532B05</color>-->
+    <color name="colorAccent">#FF5936</color>
+    <color name="start_color">#D097C4</color>
+    <color name="end_color">#E3BFDB</color>
+    <color name="navigation_color">#f9f2f8</color>
+<!--    <color name="bottom_text_color">#ac7c8e</color>-->
+    <color name="bottom_text_color">#1F333333</color>
+    <color name="title_text_color">#FCFCEF</color>
+    <color name="terms_color">#6a7fb0</color>
+    <color name="navi_text_color">#989598</color>
+    <color name="browse_border">#fbf2f9</color>
+    <color name="text_color">#908c8f</color>
+    <color name="text_color_navi">#3E3D3E</color>
+    <color name="color_switch">#ac7c8e</color>
+    <color name="button_color">#9C7192</color>
+    <color name="navigation_bgcolor">#F9EEF7</color>
+
+    <!--tutprial screen-->
+    <color name="dot_light_screen1">#FFFFFF</color>
+    <color name="dot_light_screen2">#FFFFFF</color>
+    <color name="transparent">#0AFFFFFF</color>
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+
+    <!--ShimmerLayout-->
+
+    <color name="placeholder_bg">#F3E0EE</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="textInside">#444444</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+
+
+    <!--trans_black_dailog-->
+    <color name="trans_black">#B3000000</color>
+    <color name="tv_search_hint">#666666</color>
+    <color name="dailog_cancel_color">#d0bacb</color>
+<!--    <color name="title_color">#FCFCEF</color>-->
+    <color name="title_color">#333333</color>
+    <color name="tv_white">#FFFFFF</color>
+    <color name="tv_login">#29850A</color>
+    <!--autosearch-->
+    <color name="grey">#e3e3e3</color>
+    <color name="black">#000000</color>
+    <color name="checkbox_btn">#FFA58C</color>
+    <color name="green_color">#0BAA1B</color>
+    <color name="black_light">#33333366</color>
+    <color name="yellow_light">#FFF8DD</color>
+    <color name="orange">#FF5936</color>
+    <color name="dark_yellow">#F4BB36</color>
+    <color name="yellow">#FFF8DD</color>
+    <color name="gray">#666666</color>
+<!--    <color name="edittextline_color">#9C7192</color>-->
+<!--    <color name="edittextline_color">#ADE0E0D5</color>-->
+    <color name="edittextline_color">#1F333333</color>
+    <color name="file_choose_color">#0075ff</color>
+    <color name="quantum_white_text">#97958F</color>
+    <color name="bottom_nav">#FFF8DD</color>
+
+</resources>
