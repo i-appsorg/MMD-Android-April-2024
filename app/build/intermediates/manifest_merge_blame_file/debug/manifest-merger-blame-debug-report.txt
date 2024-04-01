@@ -1,0 +1,1291 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.i2donate"
+4    android:versionCode="33"
+5    android:versionName="1.0.33" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <supports-screens
+11-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:6:5-11:40
+12        android:anyDensity="true"
+12-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:7:9-34
+13        android:largeScreens="true"
+13-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:8:9-36
+14        android:normalScreens="true"
+14-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:9:9-37
+15        android:smallScreens="true"
+15-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:10:9-36
+16        android:xlargeScreens="true" />
+16-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:11:9-37
+17
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:13:5-82
+18-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:13:22-79
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:14:5-68
+19-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:14:22-65
+20
+21    <permission
+21-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:16:5-18:47
+22        android:name="com.kuliza.taxi.permission.MAPS_RECEIVE"
+22-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:17:9-63
+23        android:protectionLevel="signature" />
+23-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:18:9-44
+24
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:20:5-75
+25-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:20:22-72
+26    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+26-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:21:5-98
+26-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:21:22-95
+27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+27-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:22:5-81
+27-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:22:22-78
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:23:5-79
+28-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:23:22-76
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:24:5-67
+29-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:24:22-64
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:25:5-79
+30-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:25:22-76
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:26:5-76
+31-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:26:22-73
+32    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+32-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:27:5-76
+32-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:27:22-73
+33    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+33-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:28:5-71
+33-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:28:22-68
+34    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+34-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:29:5-71
+34-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:29:22-68
+35    <uses-permission android:name="android.permission.CAMERA" />
+35-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:30:5-65
+35-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:30:22-62
+36    <uses-permission android:name="android.permission.CALL_PHONE" />
+36-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:31:5-69
+36-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:31:22-66
+37    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+37-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:32:5-80
+37-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:32:22-77
+38    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+38-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:33:5-81
+38-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:33:22-78
+39    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+39-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:20:5-75
+39-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:20:22-72
+40
+41    <uses-feature
+41-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:39:5-41:35
+42        android:name="android.hardware.camera.any"
+42-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:40:9-51
+43        android:required="true" />
+43-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:41:9-32
+44    <uses-feature
+44-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:42:5-44:36
+45        android:name="android.hardware.camera.autofocus"
+45-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:43:9-57
+46        android:required="false" />
+46-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:44:9-33
+47
+48    <queries>
+48-->[com.facebook.android:facebook-common:16.3.0] /Users/imac/.gradle/caches/transforms-3/d71edb121178538f48217ecf8df685c9/transformed/jetified-facebook-common-16.3.0/AndroidManifest.xml:17:5-19:15
+49        <package android:name="com.facebook.katana" />
+49-->[com.facebook.android:facebook-common:16.3.0] /Users/imac/.gradle/caches/transforms-3/d71edb121178538f48217ecf8df685c9/transformed/jetified-facebook-common-16.3.0/AndroidManifest.xml:18:9-55
+49-->[com.facebook.android:facebook-common:16.3.0] /Users/imac/.gradle/caches/transforms-3/d71edb121178538f48217ecf8df685c9/transformed/jetified-facebook-common-16.3.0/AndroidManifest.xml:18:18-52
+50        <package android:name="com.venmo" />
+50-->[com.braintreepayments.api:braintree-core:4.27.0] /Users/imac/.gradle/caches/transforms-3/dba68f85d783c64176ee4d34eeca6a55/transformed/jetified-braintree-core-4.27.0/AndroidManifest.xml:15:9-45
+50-->[com.braintreepayments.api:braintree-core:4.27.0] /Users/imac/.gradle/caches/transforms-3/dba68f85d783c64176ee4d34eeca6a55/transformed/jetified-braintree-core-4.27.0/AndroidManifest.xml:15:18-42
+51        <package android:name="com.paypal.android.p2pmobile" />
+51-->[com.braintreepayments.api:braintree-core:4.27.0] /Users/imac/.gradle/caches/transforms-3/dba68f85d783c64176ee4d34eeca6a55/transformed/jetified-braintree-core-4.27.0/AndroidManifest.xml:16:9-64
+51-->[com.braintreepayments.api:braintree-core:4.27.0] /Users/imac/.gradle/caches/transforms-3/dba68f85d783c64176ee4d34eeca6a55/transformed/jetified-braintree-core-4.27.0/AndroidManifest.xml:16:18-61
+52
+53        <intent>
+53-->[com.braintreepayments.api:browser-switch:2.3.2] /Users/imac/.gradle/caches/transforms-3/be2bb7a8c093d68e3161869f3be23fe5/transformed/jetified-browser-switch-2.3.2/AndroidManifest.xml:10:9-16:18
+54            <action android:name="android.intent.action.VIEW" />
+54-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:17-69
+54-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:25-66
+55
+56            <category android:name="android.intent.category.BROWSABLE" />
+56-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:17-78
+56-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:27-75
+57
+58            <data android:scheme="https" />
+58-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:88:23-66
+59        </intent>
+60        <intent>
+60-->[com.braintreepayments.api:browser-switch:2.3.2] /Users/imac/.gradle/caches/transforms-3/be2bb7a8c093d68e3161869f3be23fe5/transformed/jetified-browser-switch-2.3.2/AndroidManifest.xml:17:9-19:18
+61            <action android:name="android.support.customtabs.action.CustomTabsService" />
+61-->[com.braintreepayments.api:browser-switch:2.3.2] /Users/imac/.gradle/caches/transforms-3/be2bb7a8c093d68e3161869f3be23fe5/transformed/jetified-browser-switch-2.3.2/AndroidManifest.xml:18:13-90
+61-->[com.braintreepayments.api:browser-switch:2.3.2] /Users/imac/.gradle/caches/transforms-3/be2bb7a8c093d68e3161869f3be23fe5/transformed/jetified-browser-switch-2.3.2/AndroidManifest.xml:18:21-87
+62        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+63        <package android:name="com.google.android.apps.maps" />
+63-->[com.google.android.gms:play-services-maps:18.1.0] /Users/imac/.gradle/caches/transforms-3/ba7f71c5379503cda673f7c4713c4607/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+63-->[com.google.android.gms:play-services-maps:18.1.0] /Users/imac/.gradle/caches/transforms-3/ba7f71c5379503cda673f7c4713c4607/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+64    </queries>
+65
+66    <uses-feature
+66-->[com.google.android.gms:play-services-maps:18.1.0] /Users/imac/.gradle/caches/transforms-3/ba7f71c5379503cda673f7c4713c4607/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+67        android:glEsVersion="0x00020000"
+67-->[com.google.android.gms:play-services-maps:18.1.0] /Users/imac/.gradle/caches/transforms-3/ba7f71c5379503cda673f7c4713c4607/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+68        android:required="true" />
+68-->[com.google.android.gms:play-services-maps:18.1.0] /Users/imac/.gradle/caches/transforms-3/ba7f71c5379503cda673f7c4713c4607/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+69
+70    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+70-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:26:5-110
+70-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:26:22-107
+71    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+71-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:27:5-81
+71-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:27:22-78
+72    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+72-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:28:5-77
+72-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:28:22-74
+73
+74    <permission
+74-->[androidx.core:core:1.9.0] /Users/imac/.gradle/caches/transforms-3/2087c6a6545120842fdb2d57ec65c108/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+75        android:name="com.i2donate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+75-->[androidx.core:core:1.9.0] /Users/imac/.gradle/caches/transforms-3/2087c6a6545120842fdb2d57ec65c108/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+76        android:protectionLevel="signature" />
+76-->[androidx.core:core:1.9.0] /Users/imac/.gradle/caches/transforms-3/2087c6a6545120842fdb2d57ec65c108/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+77
+78    <uses-permission android:name="com.i2donate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+78-->[androidx.core:core:1.9.0] /Users/imac/.gradle/caches/transforms-3/2087c6a6545120842fdb2d57ec65c108/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+78-->[androidx.core:core:1.9.0] /Users/imac/.gradle/caches/transforms-3/2087c6a6545120842fdb2d57ec65c108/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+79
+80    <application
+80-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:46:5-262:19
+81        android:name="com.i2donate.Interwork.MyApplication"
+81-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:47:9-48
+82        android:allowBackup="true"
+82-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:48:9-35
+83        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+83-->[androidx.core:core:1.9.0] /Users/imac/.gradle/caches/transforms-3/2087c6a6545120842fdb2d57ec65c108/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+84        android:debuggable="true"
+85        android:exported="false"
+85-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:49:9-33
+86        android:extractNativeLibs="true"
+87        android:fullBackupContent="false"
+87-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:50:9-42
+88        android:grantUriPermissions="true"
+88-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:51:9-43
+89        android:hardwareAccelerated="false"
+89-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:52:9-44
+90        android:icon="@drawable/logo"
+90-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:53:9-38
+91        android:label="@string/app_name"
+91-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:54:9-41
+92        android:largeHeap="true"
+92-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:55:9-33
+93        android:requestLegacyExternalStorage="true"
+93-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:56:9-52
+94        android:roundIcon="@mipmap/ic_launcher"
+94-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:57:9-48
+95        android:supportsRtl="true"
+95-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:58:9-35
+96        android:testOnly="true"
+97        android:theme="@style/ChatBackground"
+97-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:59:9-46
+98        android:usesCleartextTraffic="true"
+98-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:60:9-44
+99        android:windowSoftInputMode="adjustResize|stateAlwaysHidden" >
+99-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:61:9-69
+100        <activity
+100-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:63:9-69:20
+101            android:name="com.i2donate.Activity.NamePlaceSerachActivity"
+101-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:64:13-61
+102            android:exported="false" >
+102-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:65:13-37
+103            <meta-data
+103-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:66:13-68:36
+104                android:name="android.app.lib_name"
+104-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:67:17-52
+105                android:value="" />
+105-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:68:17-33
+106        </activity>
+107        <activity
+107-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:70:9-76:20
+108            android:name="com.i2donate.Activity.TypeSerchActivity"
+108-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:71:13-55
+109            android:exported="false" >
+109-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:72:13-37
+110            <meta-data
+110-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:66:13-68:36
+111                android:name="android.app.lib_name"
+111-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:67:17-52
+112                android:value="" />
+112-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:68:17-33
+113        </activity>
+114        <activity android:name="com.i2donate.Activity.PrivactPolicyActivity" />
+114-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:77:9-68
+114-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:77:19-65
+115        <activity
+115-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:78:9-90:20
+116            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+116-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:79:13-84
+117            android:exported="true"
+117-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:80:13-36
+118            android:launchMode="singleTask" >
+118-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:81:13-44
+119            <intent-filter>
+119-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:82:13-89:29
+120                <action android:name="android.intent.action.VIEW" />
+120-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:17-69
+120-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:25-66
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:85:17-76
+122-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:85:27-73
+123                <category android:name="android.intent.category.BROWSABLE" />
+123-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:17-78
+123-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:27-75
+124
+125                <data android:scheme="com.i2donate.braintree" />
+125-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:88:23-66
+126            </intent-filter>
+127        </activity>
+128        <activity android:name="com.i2donate.Activity.BrainTreePaymentActivity" />
+128-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:91:9-71
+128-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:91:19-68
+129        <activity android:name="com.i2donate.Activity.PrivacyPolicyActivity" />
+129-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:92:9-68
+129-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:92:19-65
+130        <activity android:name="com.i2donate.Activity.TermsAndConditionActivity" />
+130-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:93:9-72
+130-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:93:19-69
+131        <activity android:name="com.i2donate.Activity.NewtypesActivity" />
+131-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:94:9-63
+131-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:94:19-60
+132
+133        <meta-data
+133-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:96:9-98:37
+134            android:name="firebase_crashlytics_collection_enabled"
+134-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:97:13-67
+135            android:value="false" />
+135-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:98:13-34
+136
+137        <!-- <service -->
+138        <!-- android:name=".Notification.fcm.MyFirebaseMessagingService" -->
+139        <!-- android:exported="false"> -->
+140        <!-- <intent-filter> -->
+141        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+142        <!-- </intent-filter> -->
+143        <!-- </service> -->
+144
+145
+146        <!-- <receiver -->
+147        <!-- android:name=".Notification.fcm.OnBootBroadcastReceiver" -->
+148        <!-- android:exported="false"> -->
+149        <!-- <intent-filter> -->
+150        <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+151        <!-- </intent-filter> -->
+152        <!-- </receiver> -->
+153
+154        <activity android:name="com.i2donate.Activity.ConfirmationActivity" />
+154-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:116:9-67
+154-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:116:19-64
+155        <activity android:name="com.i2donate.Activity.AnnualRevenueActivity" />
+155-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:117:9-68
+155-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:117:19-65
+156        <activity android:name="com.i2donate.Activity.TitleSubTitleActivity" />
+156-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:118:9-68
+156-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:118:19-65
+157        <activity android:name="com.i2donate.Activity.SubCategoryActivity" />
+157-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:119:9-66
+157-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:119:19-63
+158        <activity android:name="com.i2donate.Activity.AdvanceCompletedActivity" />
+158-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:120:9-71
+158-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:120:19-68
+159        <activity android:name="com.i2donate.Activity.PaymentSuccessActivity" />
+159-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:121:9-69
+159-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:121:19-66
+160        <activity android:name="com.i2donate.Activity.SelectPaymentActivity" />
+160-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:122:9-68
+160-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:122:19-65
+161        <activity android:name="com.i2donate.Activity.ChangePasswordActivity" />
+161-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:123:9-69
+161-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:123:19-66
+162        <activity
+162-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:124:9-126:76
+163            android:name="com.i2donate.Activity.OtpActivity"
+163-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:125:13-49
+164            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+164-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:126:13-73
+165        <activity android:name="com.i2donate.Activity.ForgotActivity" />
+165-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:127:9-61
+165-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:127:19-58
+166        <activity android:name="com.i2donate.Activity.AdvanceSearchActivity" />
+166-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:128:9-68
+166-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:128:19-65
+167        <activity
+167-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:129:9-131:53
+168            android:name="com.i2donate.Activity.AdavanceSearchUIDesign"
+168-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:130:13-60
+169            android:theme="@style/adavance_theme" />
+169-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:131:13-50
+170        <activity android:name="com.i2donate.Activity.AdavanceSearch_new" />
+170-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:132:9-65
+170-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:132:19-62
+171        <activity android:name="com.i2donate.Activity.HelpSupportActivity" />
+171-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:133:9-66
+171-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:133:19-63
+172        <activity android:name="com.i2donate.Activity.AboutActivity" />
+172-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:134:9-60
+172-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:134:19-57
+173        <activity android:name="com.i2donate.Activity.InternationalCharitiesActivity" />
+173-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:135:9-77
+173-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:135:19-74
+174        <activity android:name="com.i2donate.Activity.PlaceSearchActivity" />
+174-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:136:9-66
+174-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:136:19-63
+175        <activity android:name="com.i2donate.Activity.AutosearchActivity" />
+175-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:137:9-65
+175-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:137:19-62
+176        <!--
+177             The API key for Google Maps-based APIs is defined as a string resource.
+178             (See the file "res/values/google_maps_api.xml").
+179             Note that the API key is linked to the encryption key used to sign the APK.
+180             You need a different API key for each encryption key, including the release key that is used to
+181             sign the APK for publishing.
+182             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+183        -->
+184        <!--
+185   <meta-data
+186            android:name="com.google.android.geo.API_KEY"
+187            android:value="AIzaSyDwyL_q0Z9StsO0xYL_7qR7_ZIeW85I110" />
+188        -->
+189        <activity android:name="com.i2donate.Activity.UpdateActivity" />
+189-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:151:9-61
+189-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:151:19-58
+190        <activity android:name="com.i2donate.Activity.AdvanceSearch1Activity" />
+190-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:152:9-69
+190-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:152:19-66
+191        <activity
+191-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:153:9-162:20
+192            android:name="com.i2donate.Activity.WelcomeActivity"
+192-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:154:13-53
+193            android:exported="true"
+193-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:155:13-36
+194            android:theme="@style/inter_splash_screen" >
+194-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:156:13-55
+195            <intent-filter>
+195-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:157:13-161:29
+196                <action android:name="android.intent.action.MAIN" />
+196-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:158:17-69
+196-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:158:25-66
+197
+198                <category android:name="android.intent.category.LAUNCHER" />
+198-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:160:17-77
+198-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:160:27-74
+199            </intent-filter>
+200        </activity>
+201        <activity
+201-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:163:9-165:76
+202            android:name="com.i2donate.Activity.UnitedStateDetailsActivity"
+202-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:164:13-64
+203            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+203-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:165:13-73
+204        <activity
+204-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:166:9-168:48
+205            android:name="com.i2donate.Activity.SettingActivity"
+205-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:167:13-53
+206            android:theme="@style/AppTheme1" />
+206-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:168:13-45
+207        <activity android:name="com.i2donate.Activity.NotificationActivity" />
+207-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:169:9-67
+207-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:169:19-64
+208        <activity android:name="com.i2donate.Activity.FollowingActivity" />
+208-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:170:9-64
+208-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:170:19-61
+209        <activity android:name="com.i2donate.Activity.TypesActivity" />
+209-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:171:9-60
+209-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:171:19-57
+210        <activity
+210-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:172:9-175:76
+211            android:name="com.i2donate.Activity.NameSearchActivity"
+211-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:173:13-56
+212            android:theme="@style/ChatBackground"
+212-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:174:13-50
+213            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+213-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:175:13-73
+214        <activity
+214-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:176:9-178:67
+215            android:name="com.i2donate.Activity.UnitedStateActivity"
+215-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:177:13-57
+216            android:windowSoftInputMode="adjustPan|stateHidden" />
+216-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:178:13-64
+217        <activity
+217-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:179:9-182:76
+218            android:name="com.i2donate.CommonActivity.CommonBackActivity"
+218-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:180:13-62
+219            android:theme="@style/ChatBackground"
+219-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:181:13-50
+220            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+220-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:182:13-73
+221        <activity android:name="com.i2donate.Activity.RegisterActivity" />
+221-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:183:9-63
+221-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:183:19-60
+222        <activity
+222-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:184:9-187:48
+223            android:name="com.facebook.FacebookActivity"
+223-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:185:13-57
+224            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+224-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:186:13-96
+225            android:label="@string/app_name"
+225-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:187:13-45
+226            android:theme="@style/com_facebook_activity_theme" />
+226-->[com.facebook.android:facebook-common:16.3.0] /Users/imac/.gradle/caches/transforms-3/d71edb121178538f48217ecf8df685c9/transformed/jetified-facebook-common-16.3.0/AndroidManifest.xml:25:13-63
+227        <activity
+227-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:188:9-199:20
+228            android:name="com.facebook.CustomTabActivity"
+228-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:189:13-58
+229            android:exported="true" >
+229-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:190:13-36
+230            <intent-filter>
+230-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:191:13-198:29
+231                <action android:name="android.intent.action.VIEW" />
+231-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:17-69
+231-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:25-66
+232
+233                <category android:name="android.intent.category.DEFAULT" />
+233-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:85:17-76
+233-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:85:27-73
+234                <category android:name="android.intent.category.BROWSABLE" />
+234-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:17-78
+234-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:27-75
+235
+236                <data android:scheme="@string/fb_login_protocol_scheme" />
+236-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:88:23-66
+237            </intent-filter>
+238            <intent-filter>
+238-->[com.facebook.android:facebook-common:16.3.0] /Users/imac/.gradle/caches/transforms-3/d71edb121178538f48217ecf8df685c9/transformed/jetified-facebook-common-16.3.0/AndroidManifest.xml:31:13-40:29
+239                <action android:name="android.intent.action.VIEW" />
+239-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:17-69
+239-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:25-66
+240
+241                <category android:name="android.intent.category.DEFAULT" />
+241-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:85:17-76
+241-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:85:27-73
+242                <category android:name="android.intent.category.BROWSABLE" />
+242-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:17-78
+242-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:27-75
+243
+244                <data
+245                    android:host="cct.com.i2donate"
+246                    android:scheme="fbconnect" />
+246-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:88:23-66
+247            </intent-filter>
+248        </activity> <!-- facebooklogin -->
+249        <activity
+249-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:200:9-203:76
+250            android:name="com.i2donate.Activity.LoginActivity"
+250-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:201:13-51
+251            android:theme="@style/ChatBackground"
+251-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:202:13-50
+252            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+252-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:203:13-73
+253        <activity
+253-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:204:9-215:20
+254            android:name="com.i2donate.Activity.SplashScreenActivity"
+254-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:205:13-58
+255            android:exported="true"
+255-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:206:13-36
+256            android:theme="@style/inter_splash_screen" >
+256-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:207:13-55
+257
+258            <!-- <intent-filter> -->
+259            <!-- <action android:name="android.intent.action.MAIN" /> -->
+260
+261
+262            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+263            <!-- </intent-filter> -->
+264        </activity>
+265        <activity android:name="com.i2donate.Activity.MyspaceActivity" />
+265-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:216:9-62
+265-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:216:19-59
+266        <activity android:name="com.i2donate.CommonActivity.CommonMenuActivity" />
+266-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:217:9-71
+266-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:217:19-68
+267        <activity
+267-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:218:9-220:58
+268            android:name="com.i2donate.Activity.BrowseActivity"
+268-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:219:13-52
+269            android:windowSoftInputMode="adjustResize" />
+269-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:220:13-55
+270
+271        <meta-data
+271-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:222:9-224:71
+272            android:name="com.google.android.geo.API_KEY"
+272-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:223:13-58
+273            android:value="AIzaSyDfOZf_bITlewuOVvnVICvjQ70VdFHmR2Q" />
+273-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:224:13-68
+274        <meta-data
+274-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:225:9-227:69
+275            android:name="com.google.android.gms.version"
+275-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:226:13-58
+276            android:value="@integer/google_play_services_version" /> <!-- <meta-data -->
+276-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:227:13-66
+277        <!-- android:name="com.facebook.sdk.ApplicationId" -->
+278        <!-- android:value="@string/facebook_app_id" /> -->
+279        <meta-data
+279-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:230:9-232:55
+280            android:name="com.facebook.sdk.ApplicationId"
+280-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:231:13-58
+281            android:value="@string/facebook_app_id" />
+281-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:232:13-52
+282        <meta-data
+282-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:233:9-235:61
+283            android:name="com.facebook.sdk.ClientToken"
+283-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:234:13-56
+284            android:value="@string/facebook_client_token" />
+284-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:235:13-58
+285
+286        <receiver
+286-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:237:9-244:20
+287            android:name="com.i2donate.Interwork.ConnectivityReceiver"
+287-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:238:13-59
+288            android:enabled="true"
+288-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:239:13-35
+289            android:exported="false" >
+289-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:240:13-37
+290            <intent-filter>
+290-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:241:13-243:29
+291                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+291-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:242:17-79
+291-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:242:25-76
+292            </intent-filter>
+293        </receiver>
+294
+295        <meta-data
+295-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:246:9-248:57
+296            android:name="com.google.firebase.messaging.default_notification_icon"
+296-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:247:13-83
+297            android:resource="@drawable/idonate_logo" />
+297-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:248:13-54
+298        <!--
+299 Set color used with incoming notification messages. This is used when no color is set for the incoming
+300             notification message. See README(https://goo.gl/6BKBk7) for more.
+301        -->
+302        <meta-data
+302-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:253:9-255:53
+303            android:name="com.google.firebase.messaging.default_notification_color"
+303-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:254:13-84
+304            android:resource="@color/colorAccent" />
+304-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:255:13-50
+305        <meta-data
+305-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:256:9-258:37
+306            android:name="firebase_messaging_auto_init_enabled"
+306-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:257:13-64
+307            android:value="false" />
+307-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:258:13-34
+308        <meta-data
+308-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:259:9-261:37
+309            android:name="firebase_analytics_collection_enabled"
+309-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:260:13-65
+310            android:value="false" />
+310-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:261:13-34
+311
+312        <activity
+312-->[com.karumi:dexter:6.2.3] /Users/imac/.gradle/caches/transforms-3/6275eb4399d0d802f432360f18011817/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:27:9-29:72
+313            android:name="com.karumi.dexter.DexterActivity"
+313-->[com.karumi:dexter:6.2.3] /Users/imac/.gradle/caches/transforms-3/6275eb4399d0d802f432360f18011817/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:28:13-60
+314            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+314-->[com.karumi:dexter:6.2.3] /Users/imac/.gradle/caches/transforms-3/6275eb4399d0d802f432360f18011817/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:29:13-69
+315        <activity
+315-->[com.braintreepayments.api:drop-in:6.9.0] /Users/imac/.gradle/caches/transforms-3/0be89ee5738e04585c524344f804c3db/transformed/jetified-drop-in-6.9.0/AndroidManifest.xml:16:9-29:20
+316            android:name="com.braintreepayments.api.DropInActivity"
+316-->[com.braintreepayments.api:drop-in:6.9.0] /Users/imac/.gradle/caches/transforms-3/0be89ee5738e04585c524344f804c3db/transformed/jetified-drop-in-6.9.0/AndroidManifest.xml:17:13-68
+317            android:exported="true"
+317-->[com.braintreepayments.api:drop-in:6.9.0] /Users/imac/.gradle/caches/transforms-3/0be89ee5738e04585c524344f804c3db/transformed/jetified-drop-in-6.9.0/AndroidManifest.xml:18:13-36
+318            android:launchMode="singleTask"
+318-->[com.braintreepayments.api:drop-in:6.9.0] /Users/imac/.gradle/caches/transforms-3/0be89ee5738e04585c524344f804c3db/transformed/jetified-drop-in-6.9.0/AndroidManifest.xml:19:13-44
+319            android:theme="@style/bt_drop_in_activity_theme" >
+319-->[com.braintreepayments.api:drop-in:6.9.0] /Users/imac/.gradle/caches/transforms-3/0be89ee5738e04585c524344f804c3db/transformed/jetified-drop-in-6.9.0/AndroidManifest.xml:20:13-61
+320            <intent-filter>
+320-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:82:13-89:29
+321                <action android:name="android.intent.action.VIEW" />
+321-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:17-69
+321-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:25-66
+322
+323                <data android:scheme="com.i2donate.braintree" />
+323-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:88:23-66
+324
+325                <category android:name="android.intent.category.DEFAULT" />
+325-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:85:17-76
+325-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:85:27-73
+326                <category android:name="android.intent.category.BROWSABLE" />
+326-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:17-78
+326-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:27-75
+327            </intent-filter>
+328        </activity>
+329
+330        <provider
+330-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:12:9-16:40
+331            android:name="com.balsikandar.crashreporter.CrashReporterInitProvider"
+331-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:13:13-83
+332            android:authorities="com.i2donate.CrashReporterInitProvider"
+332-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:14:13-77
+333            android:enabled="true"
+333-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:15:13-35
+334            android:exported="false" />
+334-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:16:13-37
+335
+336        <activity
+336-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:18:9-22:58
+337            android:name="com.balsikandar.crashreporter.ui.CrashReporterActivity"
+337-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:19:13-82
+338            android:launchMode="singleTask"
+338-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:20:13-44
+339            android:taskAffinity="com.balsikandar.android.task"
+339-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:21:13-64
+340            android:theme="@style/CrashReporter.Theme" />
+340-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:22:13-55
+341        <activity
+341-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:23:9-26:58
+342            android:name="com.balsikandar.crashreporter.ui.LogMessageActivity"
+342-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:24:13-79
+343            android:parentActivityName="com.balsikandar.crashreporter.ui.CrashReporterActivity"
+343-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:25:13-96
+344            android:theme="@style/CrashReporter.Theme" />
+344-->[com.balsikandar.android:crashreporter:1.1.0] /Users/imac/.gradle/caches/transforms-3/295ddca4c61c21ab3022102c50234aa7/transformed/jetified-crashreporter-1.1.0/AndroidManifest.xml:26:13-55
+345        <activity
+345-->[com.google.android.libraries.places:places:3.3.0] /Users/imac/.gradle/caches/transforms-3/f3bfd221064f2ac14f403662e61153be/transformed/jetified-places-3.3.0/AndroidManifest.xml:15:9-21:20
+346            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+346-->[com.google.android.libraries.places:places:3.3.0] /Users/imac/.gradle/caches/transforms-3/f3bfd221064f2ac14f403662e61153be/transformed/jetified-places-3.3.0/AndroidManifest.xml:16:13-91
+347            android:exported="false"
+347-->[com.google.android.libraries.places:places:3.3.0] /Users/imac/.gradle/caches/transforms-3/f3bfd221064f2ac14f403662e61153be/transformed/jetified-places-3.3.0/AndroidManifest.xml:17:13-37
+348            android:label="@string/places_autocomplete_label"
+348-->[com.google.android.libraries.places:places:3.3.0] /Users/imac/.gradle/caches/transforms-3/f3bfd221064f2ac14f403662e61153be/transformed/jetified-places-3.3.0/AndroidManifest.xml:18:13-62
+349            android:theme="@style/PlacesAutocompleteOverlay"
+349-->[com.google.android.libraries.places:places:3.3.0] /Users/imac/.gradle/caches/transforms-3/f3bfd221064f2ac14f403662e61153be/transformed/jetified-places-3.3.0/AndroidManifest.xml:19:13-61
+350            android:windowSoftInputMode="adjustResize" >
+350-->[com.google.android.libraries.places:places:3.3.0] /Users/imac/.gradle/caches/transforms-3/f3bfd221064f2ac14f403662e61153be/transformed/jetified-places-3.3.0/AndroidManifest.xml:20:13-55
+351        </activity>
+352        <activity android:name="com.facebook.CustomTabMainActivity" />
+352-->[com.facebook.android:facebook-common:16.3.0] /Users/imac/.gradle/caches/transforms-3/d71edb121178538f48217ecf8df685c9/transformed/jetified-facebook-common-16.3.0/AndroidManifest.xml:26:9-71
+352-->[com.facebook.android:facebook-common:16.3.0] /Users/imac/.gradle/caches/transforms-3/d71edb121178538f48217ecf8df685c9/transformed/jetified-facebook-common-16.3.0/AndroidManifest.xml:26:19-68
+353        <activity
+353-->[com.braintreepayments.api:three-d-secure:4.27.0] /Users/imac/.gradle/caches/transforms-3/16a0a7a410e73128685cbbbeea1d515c/transformed/jetified-three-d-secure-4.27.0/AndroidManifest.xml:10:9-12:54
+354            android:name="com.braintreepayments.api.ThreeDSecureActivity"
+354-->[com.braintreepayments.api:three-d-secure:4.27.0] /Users/imac/.gradle/caches/transforms-3/16a0a7a410e73128685cbbbeea1d515c/transformed/jetified-three-d-secure-4.27.0/AndroidManifest.xml:11:13-74
+355            android:theme="@style/Theme.AppCompat" />
+355-->[com.braintreepayments.api:three-d-secure:4.27.0] /Users/imac/.gradle/caches/transforms-3/16a0a7a410e73128685cbbbeea1d515c/transformed/jetified-three-d-secure-4.27.0/AndroidManifest.xml:12:13-51
+356
+357        <meta-data
+357-->[com.braintreepayments.api:google-pay:4.27.0] /Users/imac/.gradle/caches/transforms-3/952ea8c00e10a7f7e83ec41e6caabda8/transformed/jetified-google-pay-4.27.0/AndroidManifest.xml:10:9-12:36
+358            android:name="com.google.android.gms.wallet.api.enabled"
+358-->[com.braintreepayments.api:google-pay:4.27.0] /Users/imac/.gradle/caches/transforms-3/952ea8c00e10a7f7e83ec41e6caabda8/transformed/jetified-google-pay-4.27.0/AndroidManifest.xml:11:13-69
+359            android:value="true" />
+359-->[com.braintreepayments.api:google-pay:4.27.0] /Users/imac/.gradle/caches/transforms-3/952ea8c00e10a7f7e83ec41e6caabda8/transformed/jetified-google-pay-4.27.0/AndroidManifest.xml:12:13-33
+360
+361        <activity
+361-->[com.braintreepayments.api:google-pay:4.27.0] /Users/imac/.gradle/caches/transforms-3/952ea8c00e10a7f7e83ec41e6caabda8/transformed/jetified-google-pay-4.27.0/AndroidManifest.xml:14:9-16:62
+362            android:name="com.braintreepayments.api.GooglePayActivity"
+362-->[com.braintreepayments.api:google-pay:4.27.0] /Users/imac/.gradle/caches/transforms-3/952ea8c00e10a7f7e83ec41e6caabda8/transformed/jetified-google-pay-4.27.0/AndroidManifest.xml:15:13-71
+363            android:theme="@style/bt_transparent_activity" />
+363-->[com.braintreepayments.api:google-pay:4.27.0] /Users/imac/.gradle/caches/transforms-3/952ea8c00e10a7f7e83ec41e6caabda8/transformed/jetified-google-pay-4.27.0/AndroidManifest.xml:16:13-59
+364        <activity
+364-->[com.braintreepayments.api:braintree-core:4.27.0] /Users/imac/.gradle/caches/transforms-3/dba68f85d783c64176ee4d34eeca6a55/transformed/jetified-braintree-core-4.27.0/AndroidManifest.xml:20:9-32:20
+365            android:name="com.braintreepayments.api.BraintreeDeepLinkActivity"
+365-->[com.braintreepayments.api:braintree-core:4.27.0] /Users/imac/.gradle/caches/transforms-3/dba68f85d783c64176ee4d34eeca6a55/transformed/jetified-braintree-core-4.27.0/AndroidManifest.xml:21:13-79
+366            android:exported="true"
+366-->[com.braintreepayments.api:braintree-core:4.27.0] /Users/imac/.gradle/caches/transforms-3/dba68f85d783c64176ee4d34eeca6a55/transformed/jetified-braintree-core-4.27.0/AndroidManifest.xml:22:13-36
+367            android:launchMode="singleTask" >
+367-->[com.braintreepayments.api:braintree-core:4.27.0] /Users/imac/.gradle/caches/transforms-3/dba68f85d783c64176ee4d34eeca6a55/transformed/jetified-braintree-core-4.27.0/AndroidManifest.xml:23:13-44
+368            <intent-filter>
+368-->[com.braintreepayments.api:braintree-core:4.27.0] /Users/imac/.gradle/caches/transforms-3/dba68f85d783c64176ee4d34eeca6a55/transformed/jetified-braintree-core-4.27.0/AndroidManifest.xml:24:13-31:29
+369                <action android:name="android.intent.action.VIEW" />
+369-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:17-69
+369-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:83:25-66
+370
+371                <data android:scheme="com.i2donate.braintree.deeplinkhandler" />
+371-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:88:23-66
+372
+373                <category android:name="android.intent.category.DEFAULT" />
+373-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:85:17-76
+373-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:85:27-73
+374                <category android:name="android.intent.category.BROWSABLE" />
+374-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:17-78
+374-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:86:27-75
+375            </intent-filter>
+376        </activity>
+377        <activity
+377-->[com.google.android.gms:play-services-auth:20.5.0] /Users/imac/.gradle/caches/transforms-3/efac9bab059c838bdbfa3473537b8db5/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+378            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+378-->[com.google.android.gms:play-services-auth:20.5.0] /Users/imac/.gradle/caches/transforms-3/efac9bab059c838bdbfa3473537b8db5/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+379            android:excludeFromRecents="true"
+379-->[com.google.android.gms:play-services-auth:20.5.0] /Users/imac/.gradle/caches/transforms-3/efac9bab059c838bdbfa3473537b8db5/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+380            android:exported="false"
+380-->[com.google.android.gms:play-services-auth:20.5.0] /Users/imac/.gradle/caches/transforms-3/efac9bab059c838bdbfa3473537b8db5/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+381            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+381-->[com.google.android.gms:play-services-auth:20.5.0] /Users/imac/.gradle/caches/transforms-3/efac9bab059c838bdbfa3473537b8db5/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+382        <!--
+383            Service handling Google Sign-In user revocation. For apps that do not integrate with
+384            Google Sign-In, this service will never be started.
+385        -->
+386        <service
+386-->[com.google.android.gms:play-services-auth:20.5.0] /Users/imac/.gradle/caches/transforms-3/efac9bab059c838bdbfa3473537b8db5/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+387            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+387-->[com.google.android.gms:play-services-auth:20.5.0] /Users/imac/.gradle/caches/transforms-3/efac9bab059c838bdbfa3473537b8db5/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+388            android:exported="true"
+388-->[com.google.android.gms:play-services-auth:20.5.0] /Users/imac/.gradle/caches/transforms-3/efac9bab059c838bdbfa3473537b8db5/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+389            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+389-->[com.google.android.gms:play-services-auth:20.5.0] /Users/imac/.gradle/caches/transforms-3/efac9bab059c838bdbfa3473537b8db5/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+390            android:visibleToInstantApps="true" />
+390-->[com.google.android.gms:play-services-auth:20.5.0] /Users/imac/.gradle/caches/transforms-3/efac9bab059c838bdbfa3473537b8db5/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+391
+392        <activity
+392-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/imac/.gradle/caches/transforms-3/2ef130346fbc6a38775d57f27d8ae7bf/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:28:9-31:49
+393            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+393-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/imac/.gradle/caches/transforms-3/2ef130346fbc6a38775d57f27d8ae7bf/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:29:13-74
+394            android:configChanges="keyboardHidden|orientation|screenSize"
+394-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/imac/.gradle/caches/transforms-3/2ef130346fbc6a38775d57f27d8ae7bf/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:30:13-74
+395            android:theme="@style/MediaTheme" />
+395-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/imac/.gradle/caches/transforms-3/2ef130346fbc6a38775d57f27d8ae7bf/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:31:13-46
+396        <activity
+396-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/imac/.gradle/caches/transforms-3/2ef130346fbc6a38775d57f27d8ae7bf/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:32:9-34:49
+397            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+397-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/imac/.gradle/caches/transforms-3/2ef130346fbc6a38775d57f27d8ae7bf/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:33:13-75
+398            android:theme="@style/MediaTheme" />
+398-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/imac/.gradle/caches/transforms-3/2ef130346fbc6a38775d57f27d8ae7bf/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:34:13-46
+399        <activity
+399-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/imac/.gradle/caches/transforms-3/93e6107a089569d1fef10b811fc27f36/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:28:9-31:71
+400            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+400-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/imac/.gradle/caches/transforms-3/93e6107a089569d1fef10b811fc27f36/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:29:13-82
+401            android:exported="false"
+401-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/imac/.gradle/caches/transforms-3/93e6107a089569d1fef10b811fc27f36/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:30:13-37
+402            android:windowSoftInputMode="adjustResize|stateVisible" />
+402-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/imac/.gradle/caches/transforms-3/93e6107a089569d1fef10b811fc27f36/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:31:13-68
+403
+404        <service
+404-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/imac/.gradle/caches/transforms-3/93e6107a089569d1fef10b811fc27f36/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:33:9-36:40
+405            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+405-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/imac/.gradle/caches/transforms-3/93e6107a089569d1fef10b811fc27f36/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:34:13-84
+406            android:enabled="true"
+406-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/imac/.gradle/caches/transforms-3/93e6107a089569d1fef10b811fc27f36/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:35:13-35
+407            android:exported="false" />
+407-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/imac/.gradle/caches/transforms-3/93e6107a089569d1fef10b811fc27f36/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:36:13-37
+408
+409        <activity
+409-->[com.twitter.sdk.android:twitter-core:3.1.1] /Users/imac/.gradle/caches/transforms-3/780dc1a6d83ff30b0d0c7e217fc0cc74/transformed/jetified-twitter-core-3.1.1/AndroidManifest.xml:28:9-32:40
+410            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+410-->[com.twitter.sdk.android:twitter-core:3.1.1] /Users/imac/.gradle/caches/transforms-3/780dc1a6d83ff30b0d0c7e217fc0cc74/transformed/jetified-twitter-core-3.1.1/AndroidManifest.xml:29:13-79
+411            android:configChanges="orientation|screenSize"
+411-->[com.twitter.sdk.android:twitter-core:3.1.1] /Users/imac/.gradle/caches/transforms-3/780dc1a6d83ff30b0d0c7e217fc0cc74/transformed/jetified-twitter-core-3.1.1/AndroidManifest.xml:30:13-59
+412            android:excludeFromRecents="true"
+412-->[com.twitter.sdk.android:twitter-core:3.1.1] /Users/imac/.gradle/caches/transforms-3/780dc1a6d83ff30b0d0c7e217fc0cc74/transformed/jetified-twitter-core-3.1.1/AndroidManifest.xml:31:13-46
+413            android:exported="false" />
+413-->[com.twitter.sdk.android:twitter-core:3.1.1] /Users/imac/.gradle/caches/transforms-3/780dc1a6d83ff30b0d0c7e217fc0cc74/transformed/jetified-twitter-core-3.1.1/AndroidManifest.xml:32:13-37
+414
+415        <provider
+415-->[com.squareup.picasso:picasso:2.71828] /Users/imac/.gradle/caches/transforms-3/066c1559b2faa3084cf3b6912a2c19cb/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+416            android:name="com.squareup.picasso.PicassoProvider"
+416-->[com.squareup.picasso:picasso:2.71828] /Users/imac/.gradle/caches/transforms-3/066c1559b2faa3084cf3b6912a2c19cb/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+417            android:authorities="com.i2donate.com.squareup.picasso"
+417-->[com.squareup.picasso:picasso:2.71828] /Users/imac/.gradle/caches/transforms-3/066c1559b2faa3084cf3b6912a2c19cb/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+418            android:exported="false" />
+418-->[com.squareup.picasso:picasso:2.71828] /Users/imac/.gradle/caches/transforms-3/066c1559b2faa3084cf3b6912a2c19cb/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+419        <!--
+420             FirebaseMessagingService performs security checks at runtime,
+421             but set to not exported to explicitly avoid allowing another app to call it.
+422        -->
+423        <service
+423-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:28:9-35:19
+424            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+424-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:29:13-82
+425            android:directBootAware="true"
+425-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:30:13-43
+426            android:exported="false" >
+426-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:31:13-37
+427            <intent-filter android:priority="-500" >
+427-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:32:13-34:29
+427-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:32:28-51
+428                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+428-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:33:17-78
+428-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:33:25-75
+429            </intent-filter>
+430        </service>
+431        <service
+431-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:36:9-42:19
+432            android:name="com.google.firebase.components.ComponentDiscoveryService"
+432-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:37:13-84
+433            android:directBootAware="true"
+433-->[com.google.firebase:firebase-common:20.1.2] /Users/imac/.gradle/caches/transforms-3/51fbb1c9496332e449788d0cfc98ed51/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:35:13-43
+434            android:exported="false" >
+434-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:38:13-37
+435            <meta-data
+435-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:39:13-41:85
+436                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+436-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:40:17-119
+437                android:value="com.google.firebase.components.ComponentRegistrar" />
+437-->[com.google.firebase:firebase-messaging:20.2.1] /Users/imac/.gradle/caches/transforms-3/0b10a8b5a629dbcd948787f9add0ab6d/transformed/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:41:17-82
+438            <meta-data
+438-->[com.google.firebase:firebase-iid:20.2.1] /Users/imac/.gradle/caches/transforms-3/fddcb186130f0ab33cb424a4849d96ce/transformed/jetified-firebase-iid-20.2.1/AndroidManifest.xml:32:13-34:85
+439                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+439-->[com.google.firebase:firebase-iid:20.2.1] /Users/imac/.gradle/caches/transforms-3/fddcb186130f0ab33cb424a4849d96ce/transformed/jetified-firebase-iid-20.2.1/AndroidManifest.xml:33:17-96
+440                android:value="com.google.firebase.components.ComponentRegistrar" />
+440-->[com.google.firebase:firebase-iid:20.2.1] /Users/imac/.gradle/caches/transforms-3/fddcb186130f0ab33cb424a4849d96ce/transformed/jetified-firebase-iid-20.2.1/AndroidManifest.xml:34:17-82
+441            <meta-data
+441-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/imac/.gradle/caches/transforms-3/e2307e8221302a0aabde579a6551beb5/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:31:13-33:85
+442                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+442-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/imac/.gradle/caches/transforms-3/e2307e8221302a0aabde579a6551beb5/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:32:17-139
+443                android:value="com.google.firebase.components.ComponentRegistrar" />
+443-->[com.google.android.gms:play-services-measurement-api:21.1.1] /Users/imac/.gradle/caches/transforms-3/e2307e8221302a0aabde579a6551beb5/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:33:17-82
+444            <meta-data
+444-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/imac/.gradle/caches/transforms-3/5811cfb2c975f55a3960c53ebaafdb5f/transformed/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+445                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+445-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/imac/.gradle/caches/transforms-3/5811cfb2c975f55a3960c53ebaafdb5f/transformed/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+446                android:value="com.google.firebase.components.ComponentRegistrar" />
+446-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/imac/.gradle/caches/transforms-3/5811cfb2c975f55a3960c53ebaafdb5f/transformed/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+447            <meta-data
+447-->[com.google.firebase:firebase-installations:17.0.1] /Users/imac/.gradle/caches/transforms-3/26a839100b9a4b788f57e60c2bd2ef61/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+448                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+448-->[com.google.firebase:firebase-installations:17.0.1] /Users/imac/.gradle/caches/transforms-3/26a839100b9a4b788f57e60c2bd2ef61/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+449                android:value="com.google.firebase.components.ComponentRegistrar" />
+449-->[com.google.firebase:firebase-installations:17.0.1] /Users/imac/.gradle/caches/transforms-3/26a839100b9a4b788f57e60c2bd2ef61/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+450        </service> <!-- Needs to be explicitly declared on P+ -->
+451        <uses-library
+451-->[com.google.android.gms:play-services-maps:18.1.0] /Users/imac/.gradle/caches/transforms-3/ba7f71c5379503cda673f7c4713c4607/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+452            android:name="org.apache.http.legacy"
+452-->[com.google.android.gms:play-services-maps:18.1.0] /Users/imac/.gradle/caches/transforms-3/ba7f71c5379503cda673f7c4713c4607/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+453            android:required="false" />
+453-->[com.google.android.gms:play-services-maps:18.1.0] /Users/imac/.gradle/caches/transforms-3/ba7f71c5379503cda673f7c4713c4607/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+454
+455        <provider
+455-->[androidx.emoji2:emoji2:1.2.0] /Users/imac/.gradle/caches/transforms-3/2efbdbef208cf9683a6ed30b28b5998a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+456            android:name="androidx.startup.InitializationProvider"
+456-->[androidx.emoji2:emoji2:1.2.0] /Users/imac/.gradle/caches/transforms-3/2efbdbef208cf9683a6ed30b28b5998a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+457            android:authorities="com.i2donate.androidx-startup"
+457-->[androidx.emoji2:emoji2:1.2.0] /Users/imac/.gradle/caches/transforms-3/2efbdbef208cf9683a6ed30b28b5998a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+458            android:exported="false" >
+458-->[androidx.emoji2:emoji2:1.2.0] /Users/imac/.gradle/caches/transforms-3/2efbdbef208cf9683a6ed30b28b5998a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+459            <meta-data
+459-->[androidx.emoji2:emoji2:1.2.0] /Users/imac/.gradle/caches/transforms-3/2efbdbef208cf9683a6ed30b28b5998a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+460                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+460-->[androidx.emoji2:emoji2:1.2.0] /Users/imac/.gradle/caches/transforms-3/2efbdbef208cf9683a6ed30b28b5998a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+461                android:value="androidx.startup" />
+461-->[androidx.emoji2:emoji2:1.2.0] /Users/imac/.gradle/caches/transforms-3/2efbdbef208cf9683a6ed30b28b5998a/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+462            <meta-data
+462-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:36:13-38:52
+463                android:name="androidx.work.WorkManagerInitializer"
+463-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:37:17-68
+464                android:value="androidx.startup" />
+464-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:38:17-49
+465            <meta-data
+465-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/imac/.gradle/caches/transforms-3/e341a1af2799189924c18778d44f0ea2/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+466                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+466-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/imac/.gradle/caches/transforms-3/e341a1af2799189924c18778d44f0ea2/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+467                android:value="androidx.startup" />
+467-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/imac/.gradle/caches/transforms-3/e341a1af2799189924c18778d44f0ea2/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+468            <meta-data
+468-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+469                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+469-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+470                android:value="androidx.startup" />
+470-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+471        </provider>
+472
+473        <receiver
+473-->[com.google.firebase:firebase-iid:20.2.1] /Users/imac/.gradle/caches/transforms-3/fddcb186130f0ab33cb424a4849d96ce/transformed/jetified-firebase-iid-20.2.1/AndroidManifest.xml:37:9-44:20
+474            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+474-->[com.google.firebase:firebase-iid:20.2.1] /Users/imac/.gradle/caches/transforms-3/fddcb186130f0ab33cb424a4849d96ce/transformed/jetified-firebase-iid-20.2.1/AndroidManifest.xml:38:13-78
+475            android:exported="true"
+475-->[com.google.firebase:firebase-iid:20.2.1] /Users/imac/.gradle/caches/transforms-3/fddcb186130f0ab33cb424a4849d96ce/transformed/jetified-firebase-iid-20.2.1/AndroidManifest.xml:39:13-36
+476            android:permission="com.google.android.c2dm.permission.SEND" >
+476-->[com.google.firebase:firebase-iid:20.2.1] /Users/imac/.gradle/caches/transforms-3/fddcb186130f0ab33cb424a4849d96ce/transformed/jetified-firebase-iid-20.2.1/AndroidManifest.xml:40:13-73
+477            <intent-filter>
+477-->[com.google.firebase:firebase-iid:20.2.1] /Users/imac/.gradle/caches/transforms-3/fddcb186130f0ab33cb424a4849d96ce/transformed/jetified-firebase-iid-20.2.1/AndroidManifest.xml:41:13-43:29
+478                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+478-->[com.google.firebase:firebase-iid:20.2.1] /Users/imac/.gradle/caches/transforms-3/fddcb186130f0ab33cb424a4849d96ce/transformed/jetified-firebase-iid-20.2.1/AndroidManifest.xml:42:17-81
+478-->[com.google.firebase:firebase-iid:20.2.1] /Users/imac/.gradle/caches/transforms-3/fddcb186130f0ab33cb424a4849d96ce/transformed/jetified-firebase-iid-20.2.1/AndroidManifest.xml:42:25-78
+479            </intent-filter>
+480        </receiver>
+481
+482        <activity
+482-->[com.google.android.gms:play-services-base:18.0.1] /Users/imac/.gradle/caches/transforms-3/6469d074abd14cfb5f5d0736a26023c3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+483            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+483-->[com.google.android.gms:play-services-base:18.0.1] /Users/imac/.gradle/caches/transforms-3/6469d074abd14cfb5f5d0736a26023c3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+484            android:exported="false"
+484-->[com.google.android.gms:play-services-base:18.0.1] /Users/imac/.gradle/caches/transforms-3/6469d074abd14cfb5f5d0736a26023c3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+485            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+485-->[com.google.android.gms:play-services-base:18.0.1] /Users/imac/.gradle/caches/transforms-3/6469d074abd14cfb5f5d0736a26023c3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+486
+487        <provider
+487-->[com.google.firebase:firebase-common:20.1.2] /Users/imac/.gradle/caches/transforms-3/51fbb1c9496332e449788d0cfc98ed51/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:26:9-31:39
+488            android:name="com.google.firebase.provider.FirebaseInitProvider"
+488-->[com.google.firebase:firebase-common:20.1.2] /Users/imac/.gradle/caches/transforms-3/51fbb1c9496332e449788d0cfc98ed51/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:27:13-77
+489            android:authorities="com.i2donate.firebaseinitprovider"
+489-->[com.google.firebase:firebase-common:20.1.2] /Users/imac/.gradle/caches/transforms-3/51fbb1c9496332e449788d0cfc98ed51/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:28:13-72
+490            android:directBootAware="true"
+490-->[com.google.firebase:firebase-common:20.1.2] /Users/imac/.gradle/caches/transforms-3/51fbb1c9496332e449788d0cfc98ed51/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:29:13-43
+491            android:exported="false"
+491-->[com.google.firebase:firebase-common:20.1.2] /Users/imac/.gradle/caches/transforms-3/51fbb1c9496332e449788d0cfc98ed51/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:30:13-37
+492            android:initOrder="100" />
+492-->[com.google.firebase:firebase-common:20.1.2] /Users/imac/.gradle/caches/transforms-3/51fbb1c9496332e449788d0cfc98ed51/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:31:13-36
+493
+494        <receiver
+494-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:29:9-33:20
+495            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+495-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:30:13-85
+496            android:enabled="true"
+496-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:31:13-35
+497            android:exported="false" >
+497-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:32:13-37
+498        </receiver>
+499
+500        <service
+500-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:35:9-38:40
+501            android:name="com.google.android.gms.measurement.AppMeasurementService"
+501-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:36:13-84
+502            android:enabled="true"
+502-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:37:13-35
+503            android:exported="false" />
+503-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:38:13-37
+504        <service
+504-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:39:9-43:72
+505            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+505-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:40:13-87
+506            android:enabled="true"
+506-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:41:13-35
+507            android:exported="false"
+507-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:42:13-37
+508            android:permission="android.permission.BIND_JOB_SERVICE" />
+508-->[com.google.android.gms:play-services-measurement:21.1.1] /Users/imac/.gradle/caches/transforms-3/2108a48274e24b135cf43e6e57b3368f/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:43:13-69
+509        <!--
+510         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+511         with the application context. This config is merged in with the host app's manifest,
+512         but there can only be one provider with the same authority activated at any given
+513         point; so if the end user has two or more different apps that use Facebook SDK, only the
+514         first one will be able to use the provider. To work around this problem, we use the
+515         following placeholder in the authority to identify each host application as if it was
+516         a completely different provider.
+517        -->
+518        <provider
+518-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:29:9-32:40
+519            android:name="com.facebook.internal.FacebookInitProvider"
+519-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:30:13-70
+520            android:authorities="com.i2donate.FacebookInitProvider"
+520-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:31:13-72
+521            android:exported="false" />
+521-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:32:13-37
+522
+523        <receiver
+523-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:34:9-40:20
+524            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+524-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:35:13-86
+525            android:exported="false" >
+525-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:36:13-37
+526            <intent-filter>
+526-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:37:13-39:29
+527                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+527-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:38:17-95
+527-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:38:25-92
+528            </intent-filter>
+529        </receiver>
+530        <receiver
+530-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:41:9-47:20
+531            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+531-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:42:13-118
+532            android:exported="false" >
+532-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:43:13-37
+533            <intent-filter>
+533-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:44:13-46:29
+534                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+534-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:45:17-103
+534-->[com.facebook.android:facebook-core:16.3.0] /Users/imac/.gradle/caches/transforms-3/93ae898521f3b5a759433058edd8e349/transformed/jetified-facebook-core-16.3.0/AndroidManifest.xml:45:25-100
+535            </intent-filter>
+536        </receiver>
+537
+538        <service
+538-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:41:9-46:35
+539            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+539-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:42:13-88
+540            android:directBootAware="false"
+540-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:43:13-44
+541            android:enabled="@bool/enable_system_alarm_service_default"
+541-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:44:13-72
+542            android:exported="false" />
+542-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:45:13-37
+543        <service
+543-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:47:9-53:35
+544            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+544-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:48:13-84
+545            android:directBootAware="false"
+545-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:49:13-44
+546            android:enabled="@bool/enable_system_job_service_default"
+546-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:50:13-70
+547            android:exported="true"
+547-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:51:13-36
+548            android:permission="android.permission.BIND_JOB_SERVICE" />
+548-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:52:13-69
+549        <service
+549-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:54:9-59:35
+550            android:name="androidx.work.impl.foreground.SystemForegroundService"
+550-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:55:13-81
+551            android:directBootAware="false"
+551-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:56:13-44
+552            android:enabled="@bool/enable_system_foreground_service_default"
+552-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:57:13-77
+553            android:exported="false" />
+553-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:58:13-37
+554
+555        <receiver
+555-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:61:9-66:35
+556            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+556-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:62:13-88
+557            android:directBootAware="false"
+557-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:63:13-44
+558            android:enabled="true"
+558-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:64:13-35
+559            android:exported="false" />
+559-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:65:13-37
+560        <receiver
+560-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:67:9-77:20
+561            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+561-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:68:13-106
+562            android:directBootAware="false"
+562-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:69:13-44
+563            android:enabled="false"
+563-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:70:13-36
+564            android:exported="false" >
+564-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:71:13-37
+565            <intent-filter>
+565-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:73:13-76:29
+566                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+566-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:74:17-87
+566-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:74:25-84
+567                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+567-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:75:17-90
+567-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:75:25-87
+568            </intent-filter>
+569        </receiver>
+570        <receiver
+570-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:78:9-88:20
+571            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+571-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:79:13-104
+572            android:directBootAware="false"
+572-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:80:13-44
+573            android:enabled="false"
+573-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:81:13-36
+574            android:exported="false" >
+574-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:82:13-37
+575            <intent-filter>
+575-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:84:13-87:29
+576                <action android:name="android.intent.action.BATTERY_OKAY" />
+576-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:85:17-77
+576-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:85:25-74
+577                <action android:name="android.intent.action.BATTERY_LOW" />
+577-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:86:17-76
+577-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:86:25-73
+578            </intent-filter>
+579        </receiver>
+580        <receiver
+580-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:89:9-99:20
+581            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+581-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:90:13-104
+582            android:directBootAware="false"
+582-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:91:13-44
+583            android:enabled="false"
+583-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:92:13-36
+584            android:exported="false" >
+584-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:93:13-37
+585            <intent-filter>
+585-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:95:13-98:29
+586                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+586-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:96:17-83
+586-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:96:25-80
+587                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+587-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:97:17-82
+587-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:97:25-79
+588            </intent-filter>
+589        </receiver>
+590        <receiver
+590-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:100:9-109:20
+591            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+591-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:101:13-103
+592            android:directBootAware="false"
+592-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:102:13-44
+593            android:enabled="false"
+593-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:103:13-36
+594            android:exported="false" >
+594-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:104:13-37
+595            <intent-filter>
+595-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:241:13-243:29
+596                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+596-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:242:17-79
+596-->/Users/imac/Downloads/Mama Devalayam New/app/src/main/AndroidManifest.xml:242:25-76
+597            </intent-filter>
+598        </receiver>
+599        <receiver
+599-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:110:9-121:20
+600            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+600-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:111:13-88
+601            android:directBootAware="false"
+601-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:112:13-44
+602            android:enabled="false"
+602-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:113:13-36
+603            android:exported="false" >
+603-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:114:13-37
+604            <intent-filter>
+604-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:116:13-120:29
+605                <action android:name="android.intent.action.BOOT_COMPLETED" />
+605-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:117:17-79
+605-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:117:25-76
+606                <action android:name="android.intent.action.TIME_SET" />
+606-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:118:17-73
+606-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:118:25-70
+607                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+607-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:119:17-81
+607-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:119:25-78
+608            </intent-filter>
+609        </receiver>
+610        <receiver
+610-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:122:9-131:20
+611            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+611-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:123:13-99
+612            android:directBootAware="false"
+612-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:124:13-44
+613            android:enabled="@bool/enable_system_alarm_service_default"
+613-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:125:13-72
+614            android:exported="false" >
+614-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:126:13-37
+615            <intent-filter>
+615-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:128:13-130:29
+616                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+616-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:129:17-98
+616-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:129:25-95
+617            </intent-filter>
+618        </receiver>
+619        <receiver
+619-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:132:9-142:20
+620            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+620-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:133:13-78
+621            android:directBootAware="false"
+621-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:134:13-44
+622            android:enabled="true"
+622-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:135:13-35
+623            android:exported="true"
+623-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:136:13-36
+624            android:permission="android.permission.DUMP" >
+624-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:137:13-57
+625            <intent-filter>
+625-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:139:13-141:29
+626                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+626-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:140:17-88
+626-->[androidx.work:work-runtime:2.7.0-alpha05] /Users/imac/.gradle/caches/transforms-3/5d7057f86b01201d24dc236411157b33/transformed/work-runtime-2.7.0-alpha05/AndroidManifest.xml:140:25-85
+627            </intent-filter>
+628        </receiver>
+629
+630        <service
+630-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/imac/.gradle/caches/transforms-3/f461ab256079a1996b73c1bb88c01d33/transformed/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:29:9-35:19
+631            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+631-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/imac/.gradle/caches/transforms-3/f461ab256079a1996b73c1bb88c01d33/transformed/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:30:13-103
+632            android:exported="false" >
+632-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/imac/.gradle/caches/transforms-3/f461ab256079a1996b73c1bb88c01d33/transformed/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:31:13-37
+633            <meta-data
+633-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/imac/.gradle/caches/transforms-3/f461ab256079a1996b73c1bb88c01d33/transformed/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:32:13-34:39
+634                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+634-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/imac/.gradle/caches/transforms-3/f461ab256079a1996b73c1bb88c01d33/transformed/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:33:17-94
+635                android:value="cct" />
+635-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/imac/.gradle/caches/transforms-3/f461ab256079a1996b73c1bb88c01d33/transformed/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:34:17-36
+636        </service>
+637        <service
+637-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/imac/.gradle/caches/transforms-3/acb591fcaed4fbc1397d1ba1d3ab507c/transformed/jetified-transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
+638            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+638-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/imac/.gradle/caches/transforms-3/acb591fcaed4fbc1397d1ba1d3ab507c/transformed/jetified-transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
+639            android:exported="false"
+639-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/imac/.gradle/caches/transforms-3/acb591fcaed4fbc1397d1ba1d3ab507c/transformed/jetified-transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
+640            android:permission="android.permission.BIND_JOB_SERVICE" >
+640-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/imac/.gradle/caches/transforms-3/acb591fcaed4fbc1397d1ba1d3ab507c/transformed/jetified-transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
+641        </service>
+642
+643        <receiver
+643-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/imac/.gradle/caches/transforms-3/acb591fcaed4fbc1397d1ba1d3ab507c/transformed/jetified-transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
+644            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+644-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/imac/.gradle/caches/transforms-3/acb591fcaed4fbc1397d1ba1d3ab507c/transformed/jetified-transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
+645            android:exported="false" />
+645-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/imac/.gradle/caches/transforms-3/acb591fcaed4fbc1397d1ba1d3ab507c/transformed/jetified-transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
+646        <receiver
+646-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+647            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+647-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+648            android:directBootAware="false"
+648-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+649            android:enabled="true"
+649-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+650            android:exported="true"
+650-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+651            android:permission="android.permission.DUMP" >
+651-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+652            <intent-filter>
+652-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+653                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+653-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+653-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+654            </intent-filter>
+655            <intent-filter>
+655-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+656                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+656-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+656-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+657            </intent-filter>
+658            <intent-filter>
+658-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+659                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+659-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+659-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+660            </intent-filter>
+661            <intent-filter>
+661-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+662                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+662-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+662-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/imac/.gradle/caches/transforms-3/f9ef1f22ccf7327eb427e32520490580/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+663            </intent-filter>
+664        </receiver>
+665
+666        <service
+666-->[androidx.room:room-runtime:2.2.6] /Users/imac/.gradle/caches/transforms-3/7f95be3664898507463df98706acb66f/transformed/room-runtime-2.2.6/AndroidManifest.xml:25:9-28:40
+667            android:name="androidx.room.MultiInstanceInvalidationService"
+667-->[androidx.room:room-runtime:2.2.6] /Users/imac/.gradle/caches/transforms-3/7f95be3664898507463df98706acb66f/transformed/room-runtime-2.2.6/AndroidManifest.xml:26:13-74
+668            android:directBootAware="true"
+668-->[androidx.room:room-runtime:2.2.6] /Users/imac/.gradle/caches/transforms-3/7f95be3664898507463df98706acb66f/transformed/room-runtime-2.2.6/AndroidManifest.xml:27:13-43
+669            android:exported="false" />
+669-->[androidx.room:room-runtime:2.2.6] /Users/imac/.gradle/caches/transforms-3/7f95be3664898507463df98706acb66f/transformed/room-runtime-2.2.6/AndroidManifest.xml:28:13-37
+670
+671        <provider
+671-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:17:9-21:39
+672            android:name="com.cardinalcommerce.a.setShadowLayer"
+672-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:18:13-65
+673            android:authorities="com.i2donate.CCInitProvider"
+673-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:19:13-66
+674            android:enabled="true"
+674-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:20:13-35
+675            android:exported="true" />
+675-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:21:13-36
+676
+677        <activity
+677-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:23:9-26:65
+678            android:name="com.cardinalcommerce.a.setTextLocale"
+678-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:24:13-64
+679            android:exported="false"
+679-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:25:13-37
+680            android:theme="@style/CardinalSDKTheme.ActionBar" />
+680-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:26:13-62
+681        <activity
+681-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:27:9-31:76
+682            android:name="com.cardinalcommerce.a.setTextLocales"
+682-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:28:13-65
+683            android:exported="false"
+683-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:29:13-37
+684            android:theme="@style/CardinalSDKTheme.ActionBar"
+684-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:30:13-62
+685            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+685-->[org.jfrog.cardinalcommerce.gradle:cardinalmobilesdk:2.2.7-2] /Users/imac/.gradle/caches/transforms-3/15129a7a7c00812d86fd4a0b443381ef/transformed/jetified-cardinalmobilesdk-2.2.7-2/AndroidManifest.xml:31:13-73
+686    </application>
+687
+688</manifest>
